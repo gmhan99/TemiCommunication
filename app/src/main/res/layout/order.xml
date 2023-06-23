@@ -78,7 +78,7 @@
                     android:id="@+id/t2"
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:text="라면 X 1\n김밥 X 2\n"
+                    android:text="주문 없음"
                     android:textColor="#000000"
                     android:textSize="22sp"
                     android:background="@drawable/white_order"
@@ -134,7 +134,7 @@
                     android:id="@+id/t4"
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:text="라면 X 1\n김밥 X 2\n"
+                    android:text="주문 없음"
                     android:textColor="#000000"
                     android:textSize="22sp"
                     android:background="@drawable/white_order"
@@ -173,7 +173,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/t7"
+                        android:id="@+id/t5"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -197,10 +197,10 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/t8"
+                    android:id="@+id/t6"
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:text="라면 X 1\n김밥 X 2\n"
+                    android:text="주문 없음"
                     android:textColor="#000000"
                     android:textSize="22sp"
                     android:background="@drawable/white_order"
@@ -239,7 +239,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/t9"
+                        android:id="@+id/t7"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -254,10 +254,10 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/t10"
+                    android:id="@+id/t8"
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:text="라면 X 1\n김밥 X 2\n"
+                    android:text="주문 없음"
                     android:textColor="#000000"
                     android:textSize="22sp"
                     android:background="@drawable/white_order"
@@ -296,7 +296,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/t11"
+                        android:id="@+id/t9"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -311,10 +311,10 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/t12"
+                    android:id="@+id/t10"
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:text="라면 X 1\n김밥 X 2\n"
+                    android:text="주문 없음"
                     android:textColor="#000000"
                     android:textSize="22sp"
                     android:background="@drawable/white_order"
@@ -353,7 +353,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/t5"
+                        android:id="@+id/t11"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -368,10 +368,10 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/t6"
+                    android:id="@+id/t12"
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:text="라면 X 1\n김밥 X 2\n"
+                    android:text="주문 없음"
                     android:textColor="#000000"
                     android:textSize="22sp"
                     android:background="@drawable/white_order"
