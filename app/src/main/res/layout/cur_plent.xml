@@ -8,15 +8,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/btn1"
+        <FrameLayout
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:text="뒤로 가기"
-            android:textColor="#000000"
-            android:textSize="18sp" />
+            android:layout_alignParentEnd="true">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:fontFamily="@font/gmarket"
+                android:text="뒤로가기"
+                android:textColor="#707070"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:background="#A5FDCA" />
+
+        </FrameLayout>
 
     </RelativeLayout>
 
@@ -31,7 +46,7 @@
             android:layout_height="540dp"
             android:orientation="vertical"
             android:layout_weight="1"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/rounded_solid_button"
             android:weightSum="3"
             android:layout_marginStart="20dp">
 
@@ -47,9 +62,10 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="상추"
+                    android:fontFamily="@font/gmarket"
                     android:textColor="#000000"
-                    android:textSize="72sp"
-                    android:layout_marginStart="50dp"
+                    android:textSize="40sp"
+                    android:gravity="center"
                     android:layout_marginTop="20dp"/>
 
                 <ImageView
@@ -68,7 +84,7 @@
                 android:id="@+id/t2"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:text="이 식물은 언제 언제 물을 주는 것이 가장 적당합니다."
+                android:text="상추는 하루 한번 아침에 물을 주는 것이 가장 적당합니다."
                 android:textColor="#000000"
                 android:textSize="36sp"
                 android:layout_marginStart="20dp"
@@ -79,8 +95,9 @@
                 android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:background="@drawable/rounded_solid_button"
+                android:background="@drawable/white_button"
                 android:text="물 주기"
+                android:fontFamily="@font/gmarket"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:layout_marginTop="20dp"
@@ -94,7 +111,7 @@
             android:layout_height="540dp"
             android:orientation="vertical"
             android:layout_weight="1"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/rounded_solid_button"
             android:weightSum="3"
             android:layout_marginStart="20dp">
 
@@ -109,10 +126,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="상추"
+                    android:text="브로콜리 새싹"
+                    android:fontFamily="@font/gmarket"
                     android:textColor="#000000"
-                    android:textSize="72sp"
-                    android:layout_marginStart="50dp"
+                    android:textSize="40sp"
+                    android:gravity="center"
                     android:layout_marginTop="20dp"/>
 
                 <ImageView
@@ -131,7 +149,7 @@
                 android:id="@+id/t4"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:text="이 식물은 언제 언제 물을 주는 것이 가장 적당합니다."
+                android:text="브로콜리 새싹은 하루 두번 물을 주는 것이 가장 적당합니다."
                 android:textColor="#000000"
                 android:textSize="36sp"
                 android:layout_marginStart="20dp"
@@ -142,8 +160,9 @@
                 android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:background="@drawable/rounded_solid_button"
+                android:background="@drawable/white_button"
                 android:text="물 주기"
+                android:fontFamily="@font/gmarket"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:layout_marginTop="20dp"
@@ -157,7 +176,7 @@
             android:layout_height="540dp"
             android:orientation="vertical"
             android:layout_weight="1"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/rounded_solid_button"
             android:weightSum="3"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp">
@@ -173,10 +192,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="상추"
+                    android:text="스위트\n바질"
+                    android:fontFamily="@font/gmarket"
                     android:textColor="#000000"
-                    android:textSize="72sp"
-                    android:layout_marginStart="50dp"
+                    android:textSize="40sp"
+                    android:gravity="center"
                     android:layout_marginTop="20dp"/>
 
                 <ImageView
@@ -195,7 +215,7 @@
                 android:id="@+id/t6"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:text="이 식물은 언제 언제 물을 주는 것이 가장 적당합니다."
+                android:text="스위트 바질은 주 1~2회 물을 주는 것이 가장 적당합니다."
                 android:textColor="#000000"
                 android:textSize="36sp"
                 android:layout_marginStart="20dp"
@@ -206,8 +226,9 @@
                 android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:background="@drawable/rounded_solid_button"
+                android:background="@drawable/white_button"
                 android:text="물 주기"
+                android:fontFamily="@font/gmarket"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:layout_marginTop="20dp"

@@ -6,7 +6,13 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class ServeActivity extends AppCompatActivity {
+
+    FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+    DatabaseReference databaseReference = firebaseDatabase.getReference();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +37,47 @@ public class ServeActivity extends AppCompatActivity {
         Button tableBtn5 = (Button)findViewById(R.id.btn6);
         Button tableBtn6 = (Button)findViewById(R.id.btn7);
 
+        tableBtn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                databaseReference.child("table_loc").setValue(1);
+            }
+        });
 
+        tableBtn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                databaseReference.child("table_loc").setValue(2);
+            }
+        });
+
+        tableBtn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                databaseReference.child("table_loc").setValue(3);
+            }
+        });
+
+        tableBtn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                databaseReference.child("table_loc").setValue(4);
+            }
+        });
+
+        tableBtn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                databaseReference.child("table_loc").setValue(5);
+            }
+        });
+
+        tableBtn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                databaseReference.child("table_loc").setValue(6);
+            }
+        });
 
     }
 }

@@ -8,15 +8,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/btn1"
+        <FrameLayout
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:text="뒤로 가기"
-            android:textColor="#000000"
-            android:textSize="18sp" />
+            android:layout_alignParentEnd="true">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:fontFamily="@font/gmarket"
+                android:text="뒤로가기"
+                android:textColor="#707070"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:background="#A5FDCA" />
+
+        </FrameLayout>
 
     </RelativeLayout>
 
@@ -31,7 +46,7 @@
             android:layout_height="540dp"
             android:orientation="vertical"
             android:layout_weight="1"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/rounded_solid_button"
             android:weightSum="4"
             android:layout_marginStart="20dp">
 
@@ -41,6 +56,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:text="상추"
+                android:fontFamily="@font/gmarket"
                 android:textColor="#000000"
                 android:textSize="36sp"
                 android:layout_marginStart="20dp"
@@ -75,6 +91,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:text="온도가 적절합니다."
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
@@ -84,6 +101,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:text="습도가 적절합니다."
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
@@ -114,6 +132,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="15.0도"
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:gravity="center"
                         android:textSize="18sp"
@@ -138,6 +157,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="15.0%"
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:gravity="center"
@@ -160,6 +180,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="온도"
+                    android:fontFamily="@font/gmarket"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:layout_marginStart="100dp"
@@ -171,6 +192,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="습도"
+                    android:fontFamily="@font/gmarket"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:layout_marginStart="35dp"
@@ -187,7 +209,7 @@
             android:layout_height="540dp"
             android:orientation="vertical"
             android:layout_weight="1"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/rounded_solid_button"
             android:weightSum="4"
             android:layout_marginStart="20dp">
 
@@ -196,7 +218,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="상추"
+                android:text="브로콜리 새싹"
+                android:fontFamily="@font/gmarket"
                 android:textColor="#000000"
                 android:textSize="36sp"
                 android:layout_marginStart="20dp"
@@ -231,6 +254,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:text="온도가 적절합니다."
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
@@ -240,6 +264,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:text="습도가 적절합니다."
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
@@ -270,6 +295,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="15.0도"
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:gravity="center"
@@ -294,6 +320,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="15.0%"
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:gravity="center"
@@ -316,6 +343,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="온도"
+                    android:fontFamily="@font/gmarket"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:layout_marginStart="100dp"
@@ -327,6 +355,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="습도"
+                    android:fontFamily="@font/gmarket"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:layout_marginStart="35dp"
@@ -343,7 +372,7 @@
             android:layout_height="540dp"
             android:orientation="vertical"
             android:layout_weight="1"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/rounded_solid_button"
             android:weightSum="4"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp">
@@ -353,7 +382,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="상추"
+                android:text="스위트 바질"
+                android:fontFamily="@font/gmarket"
                 android:textColor="#000000"
                 android:textSize="36sp"
                 android:layout_marginStart="20dp"
@@ -388,6 +418,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:text="온도가 적절합니다."
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
@@ -397,6 +428,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:text="습도가 적절합니다."
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp" />
 
@@ -427,6 +459,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="15.0도"
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:gravity="center"
@@ -451,6 +484,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="15.0%"
+                        android:fontFamily="@font/gmarket"
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:gravity="center"
@@ -473,6 +507,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="온도"
+                    android:fontFamily="@font/gmarket"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:layout_marginStart="100dp"
@@ -484,6 +519,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="습도"
+                    android:fontFamily="@font/gmarket"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:layout_marginStart="35dp"

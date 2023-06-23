@@ -8,15 +8,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/btn1"
+        <FrameLayout
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:text="뒤로 가기"
-            android:textColor="#000000"
-            android:textSize="18sp" />
+            android:layout_alignParentEnd="true">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:fontFamily="@font/gmarket"
+                android:text="뒤로가기"
+                android:textColor="#707070"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:background="#A5FDCA" />
+
+        </FrameLayout>
 
     </RelativeLayout>
 
@@ -33,6 +48,7 @@
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
             android:text="1번 테이블"
+            android:fontFamily="@font/gmarket"
             android:textColor="#000000"
             android:textSize="36sp"
             android:layout_marginStart="20dp"/>
@@ -44,6 +60,7 @@
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
             android:text="2번 테이블"
+            android:fontFamily="@font/gmarket"
             android:textColor="#000000"
             android:textSize="36sp"
             android:layout_marginStart="20dp"/>
@@ -55,6 +72,7 @@
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
             android:text="3번 테이블"
+            android:fontFamily="@font/gmarket"
             android:textColor="#000000"
             android:textSize="36sp"
             android:layout_marginStart="20dp"
@@ -75,6 +93,7 @@
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
             android:text="4번 테이블"
+            android:fontFamily="@font/gmarket"
             android:textColor="#000000"
             android:textSize="36sp"
             android:layout_marginStart="20dp"/>
@@ -86,6 +105,7 @@
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
             android:text="5번 테이블"
+            android:fontFamily="@font/gmarket"
             android:textColor="#000000"
             android:textSize="36sp"
             android:layout_marginStart="20dp"/>
@@ -97,6 +117,7 @@
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
             android:text="6번 테이블"
+            android:fontFamily="@font/gmarket"
             android:textColor="#000000"
             android:textSize="36sp"
             android:layout_marginStart="20dp"
